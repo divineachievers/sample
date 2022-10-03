@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>DIVINE ACHIEVERS ACADEMY</title>
+         <link rel="stylesheet" href="CSS/School code.css">
+         <link rel="icon" type="image/jpeg" href="Logo.jpeg" alt="School Logo"/>
+         <style type="text/css">
+
+            #slider {
+                overflow: hidden;
+            }
+            #slider figure {
+                    position: relative;
+                    width: 500%;
+                    margin: 0;
+                    left: 0;
+                    animation: 20s slider infinite;
+            }
+            #slider figure img{
+                width: 20%;
+                float: left;
+                height: 40vh;
+            }
+            @media (min-width: 48em){
+                #slider figure img{
+                    height: 150vh;
+                }
+            }
+            @keyframes slider{
+                0%{
+                    left: 0;
+                }
+                20%{
+                    left: 0;
+                }
+                25%{
+                    left: -100%;
+                }
+                45%{
+                    left: -100%;
+                }
+                50%{
+                    left: -200%;
+                }
+                70%{
+                    left: -200%;
+                }
+                75%{
+                    left: -300%;
+                }
+                95%{
+                    left: -300%;
+                }
+                100%{
+                    left: -400%;
+                }
+            }
+         </style>
+     </head>
+    <body>
+        <header>
+            <div class="title">
+            <h2>DIVINE ACHIEVERS ACADEMY</h2>
+            <h4>"MOTTO: ATTAINING THE HIGHEST PEAK"</h4>
+            </div>
+            <div>
+                <figure>
+                    <img src="Logo 6.png"
+                    alt="School Logo">
+                </figure>
+            </div>
+            <section class="intro">
+                <div class="inner">
+                    <div class="content">
+                        <nav role="navigation" id="nav">
+                            <input class="trigger" type="checkbox" id="mainNavButton">
+                            <label for="mainNavButton" onclick>Menu</label>
+                            <ul>
+                                <li><a href="Homepage.html">Home</a></li>
+                                <li><a href="Admission.html">Admission</a>
+                                    <ul>
+                                        <li><a href="#">Basic School</a></li>
+                                        <li><a href="#">Secondary School</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="List of Books.html">List Of Books</a></li>
+                                <li><a href="Events.html">Events</a></li>
+                                <li><a href="Newsletter.html">Newsletter</a></li>
+                                <li><a href="Contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+            <!--<nav class="top">
+                <a href="Homepage.html">Home</a>
+                <a href="Admission.html">Admission</a>
+                <a href="List of Books.html">List Of Books</a>
+                <a href="Events.html">Events</a>
+                <a href="Newsletter.html">Newsletter</a>
+                <a href="Contact.html">Contact</a>
+            </nav>-->
+        </header>
+        <section class="pictures">
+        <div id="slider">
+            <h3>Christmas Carol</h3>
+            <figure>
+            <img src="IMAGES/CAROL 2018/DSC_3554.JPG">
+            <img src="IMAGES/CAROL 2018/DSC_3583.JPG">
+            <img src="IMAGES/CAROL 2018/DSC_3580.JPG">
+            <img src="IMAGES/CAROL 2018/DSC_3580.JPG">
+            <img src="IMAGES/CAROL 2018/DSC_3554.JPG">
+            </figure>
+            <p><a href="Christmas Carol.html">See more...</a></p>
+        </div>
+            <hr>
+            <div id="slider">
+                <h3>Career Day</h3>
+                <figure>
+                <img src="IMAGES/Career Day/DSC_0452.JPG">
+                <img src="IMAGES/Career Day/DSC_0448.JPG">
+                <img src="IMAGES/Career Day/DSC_0453.JPG">
+                <img src="IMAGES/Career Day/DSC_0448.JPG">
+                <img src="IMAGES/Career Day/DSC_0452.JPG">
+                </figure>
+                <p><a href="Career Day.html">See more...</a></p>
+            </div>
+            <hr>
+            <div id="slider">
+                <h3>Valedictory Service</h3>
+                <figure>
+                <img src="IMAGES/Valedictory Service/DSC_0684.JPG">
+                <img src="IMAGES/Valedictory Service/DSC_0712.JPG">
+                <img src="IMAGES/Valedictory Service/DSC_0747.JPG">
+                <img src="IMAGES/Valedictory Service/DSC_0712.JPG">
+                <img src="IMAGES/Valedictory Service/DSC_0684.JPG">
+                </figure>
+                <p><a href="Valedictory Service.html">See more...</a></p>
+            </div>
+            </section>
+            <footer>
+                <a href="Homepage.html">Home</a>
+                <a href="Admission.html">Admission</a>
+                <a href="List of Books.html">List Of Books</a>
+                <a href="Events.html">Events</a>
+                <a href="Newsletter.html">Newsletter</a>
+                <a href="Contact.html">Contact</a>
+            </footer>
+        </body>
+     </html>
